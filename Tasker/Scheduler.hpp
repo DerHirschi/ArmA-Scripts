@@ -70,5 +70,39 @@ class Server_Events {
 		
 };
 
+class Client_Events {
+	
+	class Event_4 {	
+						
+		StartTime[]	= {				}; 		//	erster Start	HH,MM,SS
+		StartDate[]	= {	
+						{2018, 5, 1},
+						{2018, 5, 2}
+					}; 		//	{	{2017,	4,	17} };	YY DD MM			
+		Loop		= 2;					//	wird in x Minuten wiederholt. -1 Disabled
+		
+		cond		= "";					//	Bedingung
+		exec		= " 0 call { diag_log 'Event 5';}";	// 	Executed String
+		
+		LogRpt		= "Test Timer Event 5";					
+	};
+};
 
+class HC_Events {
+	
+	class Event_5 {	
+						
+		StartTime[]	= {				}; 		//	erster Start	HH,MM,SS
+		StartDate[]	= {	
+						{2018, 5, 1},
+						{2018, 5, 2}
+					}; 		//	{	{2017,	4,	17} };	YY DD MM			
+		Loop		= 2;					//	wird in x Minuten wiederholt. -1 Disabled
+		
+		cond		= "";					//	Bedingung
+		exec		= " 0 call { diag_log 'Event 5';}";	// 	Executed String
+		
+		LogRpt		= "Test Timer Event 5";					
+	};
+};
 
